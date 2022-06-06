@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Cards from '../../components/Card';
 import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
 
 const Dashboard = () => {
 
@@ -69,8 +68,7 @@ const Dashboard = () => {
               </li>
             ))}
 
-            {/* <Cards /> */}
-            <Footer />
+            <Cards />
         </>
     )
 };

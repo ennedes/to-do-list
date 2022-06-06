@@ -6,15 +6,15 @@ const Navbar = () => {
     return (
         <>
             <Link to='/'>
-                <button>Home</button>
+                <button>Dashboard</button>
             </Link>
             {' '}        
             <Link to='/newtask'>
-                <button>Add task</button>
+                <button>Add a new task</button>
             </Link>
             {' '}
             <Link to='/archive'>
-                <button>Tasks done</button>
+                <button>Completed Tasks</button>
             </Link>
             
         </>
