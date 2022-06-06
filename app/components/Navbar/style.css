@@ -1,0 +1,11 @@
+.navbar {
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    height: 5vh;
+}
+
+.navbar-links {
+    display: block;
+    align-items: center;
+    margin: auto;
+}
